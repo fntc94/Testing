@@ -4,7 +4,7 @@ import java.util.function.Consumer;
 
 public class Aldeano implements IRecolectorOro, IConstructor, IReparador {
 
-    private int nuevaVariable = 1000000;
+    private int nuevaVariable = 0;
     private int _vidaMaxima = 50;
     private EdificiosEnConstruccionFabrica _fabricaDeEdificios;
     private int _vidaActual;
